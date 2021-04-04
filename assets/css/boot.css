@@ -1,0 +1,26 @@
+/* RESET CSS */
+:root {
+    --primary-color: #1a181b;
+    --secondary-color: #6c63ff;
+    --white-color: #FFFFFF;
+    --light-gray-color: #EEEEEE;
+    --gap: 3rem;
+}
+
+* { margin: 0; padding: 0; }
+html { font-size: 62.5%; scroll-behavior: smooth;}
+body {font-family: 'Open Sans', sans-serif; font-size: 2rem; color: var(--primary-color); line-height: 1.5;}
+a {text-decoration: none;}
+h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', sans-serif; }
+h1 { font-size: 6rem; text-transform: uppercase; }
+h2 { font-size: 4.5rem; margin-bottom: 5rem; text-transform: uppercase; line-height: 1.2;}
+h3 { font-size: 5rem; }
+h4 { font-size: 4.5rem; }
+h5 { font-size: 4rem; }
+h6 { font-size: 3.5rem; }
+
+p { margin-bottom: 3rem; }
+
+.btn { width: 20rem; height: 5rem; border-radius: 0.3rem; color: var(--white-color); text-transform: uppercase; border: none; font-weight: 700; background: var(--secondary-color); text-align: center; line-height: 2.5;}
+.btn:hover { background: var(--primary-color); transition: all 0.5s; }
+
